@@ -1,5 +1,8 @@
 # Rambox Upgrade Script
 
+## IMPORTANT
+Rambox doesn't currently provide an apt repository that can be used to automatically upgrade the linux package. This means that a manual download has to be done. As much as I love Rambox, this is nearly a dealbreaker. This script helps ease the pain a little bit, but it still shouldn't need to exist.
+
 ## Overview
 This script automates the process of upgrading Rambox on a Debian-based Linux system. It fetches the latest `.deb` package from the [Rambox GitHub repository](https://github.com/ramboxapp/download), terminates any existing Rambox processes, and installs the new version.
 
